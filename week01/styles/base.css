@@ -1,32 +1,39 @@
-body{
+body{ 
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+} 
 
 /* header */
 header {
-  background-color:#023047 ;
+  background-color:#023047;
   text-align: center;
+}
+
+.user-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .myimage {
   width: 170px;
   height: 150px;
+  padding-right: 20px;
   padding-top: 10px;
   display: inline;
+  border-radius: 20px;
 }
 
 h1 {
   color: white;
   display: inline;
-  margin: 30px;
 }
 
 nav {
   font-size: bold;
   background-color: #000;
-  text-align: center;
+  
 }
 
 nav a {
@@ -38,6 +45,10 @@ nav a {
   padding: 10px;
 }
 
+/* a:hover {
+  display: inline;
+  background-color: aliceblue;
+} */
 
 /* main */
 .card{
@@ -63,7 +74,7 @@ h3 {
   color: white;
   text-align: center;
   background-color: #023047;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -78,9 +89,24 @@ p {
 footer {
   text-align: center;
   background-color: #023047;
-  
- }
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+.flag {
+  display: inline; 
+  width: 100px;
+  border-radius: 15px;
+
+}
+
+.country {
+  display: inline;
+}
 
 #lastmodified {
   color: rgb(255, 255, 5);
+  padding-bottom: 10px;
 }
