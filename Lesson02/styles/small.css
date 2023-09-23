@@ -1,0 +1,56 @@
+@media only screen and (max-width: 400px) {
+  * body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+  header  {
+    padding: 0;
+    display: block;
+    background-color: #023047;
+    justify-content: center;
+  
+  }
+
+  .des {
+    padding-top: 20px;
+    display: block;
+  }
+
+  h1 {
+    display: block;
+    background-color: #023047;
+    color: #fff;
+    padding-top: 10px;
+    justify-content: center;}
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+  }
+  .cards {
+    display: ;
+    justify-content: center;
+
+  }
+
+  
+
+
+
+  h1, footer  {
+    height: 80px;
+    width: 500px;
+  }
+
+  
+
+  footer p {
+    display: block;
+    justify-content: center;
+  }
+
+
+}
